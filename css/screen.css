@@ -4,19 +4,10 @@ html {
 body {
 	margin: 0;
 	font-family: sans-serif;
-	min-height:100vh;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background:
-		radial-gradient(black 15%, transparent 16%) 0 0,
-		radial-gradient(black 15%, transparent 16%) 8px 8px,
-		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-	background-color:#282828;
-	background-size:16px 16px;
+	min-height: 100vh;
+	background-color: #282828;
 	background-attachment: fixed;
+	text-align: center;
 }
 
 .arrow {
@@ -25,13 +16,14 @@ body {
 	transition: all 0.2s;
 	transform: rotate(0deg);
 	display: inline-block;
+	margin: 0 auto;
 }
 
 h1 {
-	color:white;
+	color: white;
 	font-weight: 100;
 	font-size: 60px;
-	display:flex;
-	align-items: center;
+	text-align: center;
+	margin: 0 auto;
 }
 /*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
